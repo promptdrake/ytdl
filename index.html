@@ -241,7 +241,7 @@
 
         videoTitle.textContent = data.p.title;
         videoDescription.textContent = data.p.description;
-        downloadButton.href = data.download;
+        downloadButton.href = data.dowmload;
         downloadButton.setAttribute("download", data.p.title + "." + selectedFormat);
 
         thumbnail.src = data.p.thumbnails[data.p.thumbnails.length - 1].url;
